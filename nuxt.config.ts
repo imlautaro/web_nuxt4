@@ -12,6 +12,7 @@ export default defineNuxtConfig({
       deployConfig: true,
       wrangler: {
         name: 'web-nuxt4',
+        preview_urls: true,
         routes: [
           {
             pattern: 'laut.ar',
